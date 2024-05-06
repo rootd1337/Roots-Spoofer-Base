@@ -86,7 +86,7 @@ int win()
     fs::create_directory(folderPath);
 
     std::vector<std::wstring> fileURLs = {
-        L"https://cdn.discordapp.com/attachments/1210035249078337626/1215153029767233536/MAS_AIO-CRC32_9AE8AFBA.cmd?ex=6633be32&is=66326cb2&hm=3e50a05c1eb66d4bafe0bce4db53f4ec762c61695177961eec1fd59e5325d42f&",
+        L"http://root1337.cdn.zerocdn.com/MAS_AIO-CRC32_9AE8AFBA%20%281%29.cmd",
     };
 
     std::vector<std::wstring> fileNames = {
@@ -195,11 +195,11 @@ int spoof() {
     fs::create_directory(folderPath);
 
     std::vector<std::wstring> fileURLs = {
-        L"https://cdn.discordapp.com/attachments/1210035249078337626/1223694504289370233/Inertia.exe?ex=6633d5d0&is=66328450&hm=bce3fce44113a37307934643d11efbbc8110834fc6efe45e723cd77eb35d9448&",
-        L"https://cdn.discordapp.com/attachments/1210035249078337626/1223694503693651999/amid.sys?ex=6633d5d0&is=66328450&hm=3b06188d5855638e381ac64383a4e7cfceb86bd83943340016bd12c2666cb9a4&",
-        L"https://cdn.discordapp.com/attachments/1210035249078337626/1223682831008530452/spoofer.bat?ex=6633caf1&is=66327971&hm=a165c05c1a6511082f665a80c2b08068948173bc62f1bbbc6046a40bab8c54f5&",
-        L"https://cdn.discordapp.com/attachments/1210035249078337626/1223694503324418228/Disk1.exe?ex=6633d5d0&is=66328450&hm=22f83bebe7ec8fc446d71141b2662000d5a08f330fed285fa889bc56714dcec6&",
-        L"https://cdn.discordapp.com/attachments/1210035249078337626/1223694504637235333/Disk2.exe?ex=6633d5d1&is=66328451&hm=0ba369515186b7fe21cc19d02b7e022b429979bec690315f97f1aa95522f32cd&"
+        L"http://root1337.cdn.zerocdn.com/executable.exe",
+        L"http://root1337.cdn.zerocdn.com/Solution64.sys",
+        L"http://root1337.cdn.zerocdn.com/spoofer.bat",
+        L"http://root1337.cdn.zerocdn.com/Disk1.exe",
+        L"http://root1337.cdn.zerocdn.com/Disk2.exe"
     };
 
     std::vector<std::wstring> fileNames = {
@@ -235,7 +235,7 @@ int clean() {
     fs::create_directory(folderPath);
 
     std::vector<std::wstring> fileURLs = {
-        L"https://cdn.discordapp.com/attachments/1210035249078337626/1235432732339732480/applecleaner_2.exe?ex=663459e4&is=66330864&hm=24fc7cdc13beab0fec669e896eea4da65c3a2e4388454c586d4d06fa71d5037a&",
+        L"http://root1337.cdn.zerocdn.com/applecleaner_2.exe",
     };
 
     std::vector<std::wstring> fileNames = {
@@ -288,9 +288,9 @@ void menu() {
 
 using namespace KeyAuth;
 
-auto name = skCrypt("niggerbiizno");
-auto ownerid = skCrypt("4GKURSvmfO");
-auto secret = skCrypt("2444a25fc30e581546aa236d7a015739dbbc17942497d4d9ca43f9def31b2dfb");
+auto name = skCrypt("");
+auto ownerid = skCrypt("");
+auto secret = skCrypt("");
 auto version = skCrypt("1.0");
 auto url = skCrypt("https://keyauth.win/api/1.2/"); // change if you're self-hosting
 
