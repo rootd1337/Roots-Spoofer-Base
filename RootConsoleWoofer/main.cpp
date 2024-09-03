@@ -21,7 +21,7 @@ namespace fs = std::filesystem;
 #include <Windows.h>
 
 bool downloadFile(const std::wstring& url, const std::wstring& filePath) {
-    // nigger
+    // download
     int urlSize = WideCharToMultiByte(CP_UTF8, 0, url.c_str(), -1, nullptr, 0, nullptr, nullptr);
     int filePathSize = WideCharToMultiByte(CP_UTF8, 0, filePath.c_str(), -1, nullptr, 0, nullptr, nullptr);
 
@@ -31,7 +31,7 @@ bool downloadFile(const std::wstring& url, const std::wstring& filePath) {
     WideCharToMultiByte(CP_UTF8, 0, url.c_str(), -1, narrowUrl.data(), urlSize, nullptr, nullptr);
     WideCharToMultiByte(CP_UTF8, 0, filePath.c_str(), -1, narrowFilePath.data(), filePathSize, nullptr, nullptr);
 
-    // nigger
+    // function call
     HRESULT hr = URLDownloadToFileA(nullptr, narrowUrl.c_str(), narrowFilePath.c_str(), 0, nullptr);
     if (FAILED(hr)) {
         std::cerr << "Failed to download files. Error code: " << hr << std::endl;
